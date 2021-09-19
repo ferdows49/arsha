@@ -49,8 +49,9 @@ nav ul li a:hover {
   padding: 10px 15px;
   border-radius: 22px;
   text-align: center;
-  border: 2px solid #47b2e4;
+  border: 2px solid #3fabdd;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .btn a:hover {
@@ -410,11 +411,10 @@ nav a {
   background-color: #fff;
   box-shadow: 0 3px 15px rgb(228, 226, 226);
   border-radius: 5px;
-  transition-delay: 0.5s;
+  transition: ease-in-out 0.3s;
 }
 
 #services .col .box:hover {
-  transition-delay: 0.5s;
   transform: translateY(-10px);
 }
 
@@ -434,4 +434,189 @@ nav a {
   font-size: 16px;
   padding: 5px;
   text-align: left;
+}
+
+#cta {
+  height: 400px;
+  background: url("./img/cta-bg.jpg") repeat fixed 100%;
+}
+
+#cta .container {
+  height: 100%;
+  background-color: #304567;
+  opacity: 0.8;
+  display: flex;
+  padding: 8%;
+}
+
+#cta .container .content {
+  width: 70%;
+}
+
+#cta .container .btn {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+
+#cta .container h4 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#cta .container p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+#team {
+  height: 850px;
+  background-color: #f3f5fa;
+  width: 100%;
+}
+
+#team .container h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #37517e;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+#team .container .title hr {
+  border: 2px solid #659dff;
+  margin: auto;
+  max-width: 50px;
+}
+
+#team .container .title P {
+  color: #4d4d4e;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#team .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#team .container .row .col {
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  height: 250px;
+  width: 750px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px gainsboro;
+  transition: ease-in-out 0.3s;
+}
+
+#team .container .row .col:hover {
+  transform: translateY(-10px);
+}
+
+#team .container .col .info {
+  margin: 15px;
+}
+
+#team .container .col h3 {
+  color: #37517e;
+  font-size: 22px;
+  font-weight: 800;
+  padding-left: 10px;
+}
+
+#team .container .col img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#team .container .col h4 {
+  color: #4d4d4e;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 10px;
+}
+
+#team .container .col hr {
+  border: 0.5px solid #bbc2ce;
+  max-width: 70px;
+}
+
+#team .container .col P {
+  color: #4d4d4e;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+#team .container .col .btn a {
+  font-size: 35px;
+  color: dodgerblue;
+  padding: 0;
+  border: none;
+  margin-left: 5px;
+}
+
+#team .container .col .btn a:hover {
+  color: rgb(116, 186, 255);
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+#pricing {
+  height: 800px;
+}
+
+#pricing h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #37517e;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+#pricing hr {
+  border: 2px solid #659dff;
+  margin: auto;
+  max-width: 50px;
+}
+
+#team .container .title P {
+  color: #4d4d4e;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#pricing .plans {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#pricing .plans .plan {
+  height: 500px;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px gainsboro;
 }
